@@ -6,6 +6,10 @@
 
 ![图译工作台](docs/images/工作台.png)
 
+## 下载交付文件
+
+[v1.0.0 Release](https://github.com/ShanHuiSir/drawing-translator-competition/releases/tag/v1.0.0) 中提供：`windows-portable.zip`（免安装程序）、`source-models.zip`（源码与模型、原始输入）、`sample-results-139-pages.zip`（完整样例结果）、`delivery-report.pdf`（实测报告）、`delivery-manifest.json`（校验清单）。压缩包内部保留中文文件名。
+
 ## 从 GitHub 恢复运行环境
 
 ```sh
@@ -24,7 +28,7 @@ Python 本地应用，支持扫描 PDF、文本 PDF、JPG、PNG、BMP，提供�
 
 ## Windows 免安装启动
 
-1. 将 `图译_Windows免安装版.zip` **完整解压**到可写目录，例如 `D:\图译`。
+1. 将 Release 的 `windows-portable.zip`（本地交付名 `图译_Windows免安装版.zip`） **完整解压**到可写目录，例如 `D:\图译`。
 2. 双击 `图译.exe`，默认浏览器会打开本地工作台。也可双击 `启动图译.bat` 查看控制台提示。
 3. 点击“打开内置示例”或“导入图纸”。页码留空处理全部页；`1-3,5` 仅处理指定页。
 4. 在右侧复核译文。点击文本条目可定位原文，修改后点击“保存并标为已复核”。

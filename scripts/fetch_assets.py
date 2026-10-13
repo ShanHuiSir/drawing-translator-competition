@@ -16,7 +16,7 @@ from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
 URL = "https://github.com/ShanHuiSir/drawing-translator-competition/releases/download/v1.0.0/"
-ASSET = "图译_源码及模型.zip"
+ASSET = "source-models.zip"
 SHA256 = "2b633d59c2418edd6404bae587d7a1c807314b7094a5755ac28790fb61c8e63a"
 
 
