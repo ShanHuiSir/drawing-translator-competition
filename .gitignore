@@ -1,0 +1,29 @@
+# Generated runtime data and local tools
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.cache/
+.DS_Store
+build/
+dist/
+workspace/
+outputs/
+inputs/
+*.log
+!evidence/pytest-final.log
+# Model weights are restored from the versioned release
+models/**/*.onnx
+models/**/*.bin
+models/**/*.model
+models/**/*.argosmodel
+models/**/shared_vocabulary.json
+models/**/stanza/
+# Credentials never belong in source control
+.env
+.env.*
+!.env.example
+*.pem
+*.key

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="local-token" content="__LOCAL_TOKEN__">
+  <title>图译 · 机械图纸翻译工作台</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="图译首页"><span class="brand-mark">译</span><span>图译<small>DRAWING TRANSLATOR</small></span></a>
+    <div class="local-badge"><span class="status-dot"></span>本地运行 · 无需联网</div>
+    <button id="upload-button" class="primary full">＋ 导入图纸</button>
+    <input id="file-input" type="file" accept=".pdf,.jpg,.jpeg,.png,.bmp" multiple hidden>
+    <div class="import-settings">
+      <label for="quality">识别方式</label>
+      <select id="quality"><option value="fast">快速识别 · 当前朝向</option><option value="accurate">增强识别 · 四方向 / 小字</option></select>
+      <label for="pages">处理页码</label><input id="pages" placeholder="全部页，或 1-3,5" aria-label="处理页码">
+    </div>
+    <div class="section-label"><span>图纸文件</span><span id="job-count">0</span></div>
+    <nav id="jobs" aria-label="图纸任务列表"></nav>
+    <button id="demo-button" class="demo-button">打开内置示例 ↗</button>
+    <div class="sidebar-bottom"><span>PDF / JPG / PNG / BMP</span><p>原件留存于本机，译文与坐标可编辑导出。</p><span id="model-status">正在检查离线模型…</span><button id="quit-button" class="demo-button full">退出工作台</button></div>
+  </aside>
+
+  <main>
+    <header class="topbar"><div><div class="breadcrumb">机械图纸 / 翻译工作台</div><h1 id="document-name">让英文图纸，读起来更清楚。</h1></div><div class="topbar-actions"><button id="cancel-button" hidden>取消处理</button><button id="export-button" class="primary" disabled>导出图纸与坐标 ↗</button></div></header>
+    <div id="empty-state" class="empty-state">
+      <div id="drop-zone" tabindex="0" role="button" aria-label="选择或拖入图纸">
+        <div class="drawing-symbol"><span>EN</span><i>→</i><strong>中文</strong></div>
+        <h2>导入一张图纸，开始本地翻译</h2><p>识别英文，保留坐标，将红色译文标注在原图上。</p>
+        <button id="empty-upload" class="primary">选择图纸</button><p class="small">也可将多个文件拖入此处 · 单文件最大 250 MB</p>
+      </div>
+      <div class="empty-details"><div><b>01</b><h3>识别与定位</h3><p>PDF 文本与扫描图 OCR，记录原文和坐标。</p></div><div><b>02</b><h3>翻译与复核</h3><p>机械术语优先，支持修订和个人术语库。</p></div><div><b>03</b><h3>红字标注与导出</h3><p>选择遮挡或保留英文，导出图纸、JSON 和 CSV。</p></div></div>
+    </div>
+
+    <section id="workbench" hidden>
+      <div class="summary"><span><strong id="region-count">0</strong> 英文区域</span><span><strong id="translated-count">0</strong> 条译文</span><span class="review-number"><strong id="review-count">0</strong> 待复核</span><span id="elapsed">尚未处理</span></div>
+      <div class="toolbar"><div class="toolbar-group"><label for="page-select">图页</label><select id="page-select" aria-label="选择图页"></select><button id="prev-page" aria-label="上一页">‹</button><button id="next-page" aria-label="下一页">›</button></div><div class="mode-tabs" role="group" aria-label="译文标注模式"><button data-mode="beside" class="active">不遮挡英文</button><button data-mode="cover">遮挡英文</button></div><div class="toolbar-group"><button id="zoom-out" aria-label="缩小图纸">−</button><span id="zoom-label">100%</span><button id="zoom-in" aria-label="放大图纸">＋</button><button id="zoom-fit">适合窗口</button></div></div>
+      <div class="workspace">
+        <div class="viewers"><div class="viewer-pane"><div class="viewer-title"><span>英文原图</span><span id="coordinate-hint">选择文本区域查看坐标</span></div><div class="canvas-scroll" id="original-scroll"><div class="paper" id="original-paper"><img id="original-image" alt="原始机械图纸"><div id="highlight" class="highlight" hidden></div></div></div></div><div class="viewer-pane"><div class="viewer-title"><span>中文标注预览</span><span class="red-label">红色译文</span></div><div class="canvas-scroll"><div class="paper"><img id="translated-image" alt="标注中文译文的机械图纸"></div><div id="processing-state" class="processing-state"><span class="spinner"></span><h3>正在本地处理</h3><p id="processing-message">等待识别</p><progress id="progress" value="0" max="1"></progress></div></div></div></div>
+        <aside class="review-panel"><div class="review-header"><h2>译文复核</h2><span id="page-region-count">0 条</span></div><input id="search" type="search" placeholder="搜索英文或中文…" aria-label="搜索文本"><div class="filter-tabs"><button data-filter="all" class="active">全部</button><button data-filter="review">待复核</button><button data-filter="glossary">术语匹配</button></div><div id="regions" class="region-list"><p class="panel-empty">识别完成后在这里查看译文。</p></div><form id="editor" hidden><div class="editor-heading"><b id="edit-id">文本区域</b><button id="close-editor" type="button" aria-label="关闭编辑">×</button></div><label for="source-text">英文原文</label><textarea id="source-text" rows="2"></textarea><label for="translation-text">中文译文</label><textarea id="translation-text" rows="3"></textarea><div id="edit-coordinates" class="coordinate-text"></div><p id="edit-warning" class="warning-text"></p><label class="checkbox-label"><input type="checkbox" id="enabled">在图纸上显示译文</label><label class="checkbox-label"><input type="checkbox" id="save-term">记入个人术语库</label><button id="save-button" type="submit" class="primary full">保存并标为已复核</button><span class="shortcut">Ctrl / ⌘ + Enter 保存</span></form></aside>
+      </div>
+    </section>
+    <footer><span id="status-text">就绪 · 数据只在当前电脑处理</span><span>坐标可追溯 · 原图不覆盖</span></footer>
+  </main>
+  <div id="toast" role="status" hidden></div>
+</body>
+</html>

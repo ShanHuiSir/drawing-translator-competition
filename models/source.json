@@ -1,0 +1,7 @@
+{
+  "url": "https://argos-net.com/v1/translate-en_zh-1_9.argosmodel?download=1",
+  "sha256": "433e7c4f034d87fbe2353161e05f18646d7999452f801a4e1f0378522b9850ab",
+  "license": "CC-BY-4.0",
+  "attribution": "Jörg Tiedemann and Santhosh Thottingal, OPUS-MT — Building open translation services for the World (EAMT 2020). Packaged by Argos Open Technologies.",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/"
+}

@@ -1,0 +1,7 @@
+{"status": "ok", "elapsed": 6.852, "regions": 55, "time": "2026-10-13T09:49:10.551565+08:00", "iteration": 1, "pid": 93847, "runtime_seconds": 6.857087999989744, "rss_bytes": 919863296}
+{"status": "ok", "elapsed": 5.558, "regions": 55, "time": "2026-10-13T09:49:16.115788+08:00", "iteration": 2, "pid": 93847, "runtime_seconds": 12.421652249991894, "rss_bytes": 670351360}
+{"status": "ok", "elapsed": 7.368, "regions": 55, "time": "2026-10-13T09:49:23.489707+08:00", "iteration": 3, "pid": 93847, "runtime_seconds": 19.795534042001236, "rss_bytes": 695386112}
+{"status": "ok", "elapsed": 6.088, "regions": 55, "time": "2026-10-13T09:49:29.583438+08:00", "iteration": 4, "pid": 93847, "runtime_seconds": 25.88905329199042, "rss_bytes": 640057344}
+{"status": "ok", "elapsed": 6.084, "regions": 55, "time": "2026-10-13T09:49:35.671956+08:00", "iteration": 5, "pid": 93847, "runtime_seconds": 31.977572291973047, "rss_bytes": 718077952}
+{"status": "ok", "elapsed": 4.357, "regions": 55, "time": "2026-10-13T09:49:40.032429+08:00", "iteration": 6, "pid": 93847, "runtime_seconds": 36.337657291966025, "rss_bytes": 889864192}
+{"status": "finished", "hours": 0.01, "iterations": 6}

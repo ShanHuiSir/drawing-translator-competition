@@ -1,0 +1,16 @@
+{
+  "license": "Apache-2.0",
+  "publisher": "PaddleOCR / RapidAI",
+  "files": [
+    {
+      "file": "en_PP-OCRv3_rec_infer.onnx",
+      "url": "https://huggingface.co/SWHL/RapidOCR/resolve/main/PP-OCRv3/en_PP-OCRv3_rec_infer.onnx",
+      "sha256": "ef7abd8bd3629ae57ea2c28b425c1bd258a871b93fd2fe7c433946ade9b5d9ea"
+    },
+    {
+      "file": "en_PP-OCRv3_det_infer.onnx",
+      "url": "https://huggingface.co/SWHL/RapidOCR/resolve/main/PP-OCRv4/en_PP-OCRv3_det_infer.onnx",
+      "sha256": "f139598bc2af4e4b6fe98dec11574e30edfdd91fc94ac1425c18ace3bd5a866b"
+    }
+  ]
+}

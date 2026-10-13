@@ -1,0 +1,3157 @@
+{
+  "schema_version": "1.0",
+  "app_version": "1.0.0",
+  "filename": "sample.pdf",
+  "source_sha256": "52d89696064ca9bf16fb1c4cdf296b5cf724baccce1ec8ce77210b6a41187975",
+  "created_at": "2026-10-13T09:44:42.192868+08:00",
+  "offline": true,
+  "quality": "fast",
+  "coordinate_system": {
+    "bbox": "display-page top-left; x right, y down",
+    "coordinates": "display-page bottom-left; x right, y up",
+    "pdf_unit": "pt (1/72 inch)",
+    "image_unit": "px; EXIF orientation applied"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 842.0,
+      "height": 595.219970703125,
+      "unit": "pt",
+      "regions": [
+        {
+          "id": "p1-t1",
+          "source": "JSED ON",
+          "bbox": [
+            726.416,
+            22.569,
+            740.577,
+            27.16
+          ],
+          "polygon": [
+            [
+              726.416,
+              22.569
+            ],
+            [
+              740.577,
+              22.569
+            ],
+            [
+              740.577,
+              27.16
+            ],
+            [
+              726.416,
+              27.16
+            ]
+          ],
+          "confidence": 0.9803,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "开始",
+          "translation_method": "offline-nmt",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 726.416,
+            "MinY": 568.06,
+            "MaxX": 740.577,
+            "MaxY": 572.651
+          }
+        },
+        {
+          "id": "p1-t2",
+          "source": "SLUG RETENTION FEATURE EXAMPLE FOR ROUND OPENINGS",
+          "bbox": [
+            467.693,
+            53.937,
+            767.368,
+            62.735
+          ],
+          "polygon": [
+            [
+              467.693,
+              53.937
+            ],
+            [
+              767.368,
+              53.937
+            ],
+            [
+              767.368,
+              62.735
+            ],
+            [
+              467.693,
+              62.735
+            ]
+          ],
+          "confidence": 0.9841,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "圆孔防跳屑结构示例",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 467.693,
+            "MinY": 532.485,
+            "MaxX": 767.368,
+            "MaxY": 541.283
+          }
+        },
+        {
+          "id": "p1-t3",
+          "source": "ON",
+          "bbox": [
+            32.532,
+            76.889,
+            35.976,
+            83.775
+          ],
+          "polygon": [
+            [
+              32.532,
+              76.889
+            ],
+            [
+              35.976,
+              76.889
+            ],
+            [
+              35.976,
+              83.775
+            ],
+            [
+              32.532,
+              83.775
+            ]
+          ],
+          "confidence": 0.8238,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "在",
+          "translation_method": "glossary",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [
+            "OCR 置信度低于 0.85，请核对英文原文"
+          ],
+          "coordinates": {
+            "MinX": 32.532,
+            "MinY": 511.445,
+            "MaxX": 35.976,
+            "MaxY": 518.331
+          }
+        },
+        {
+          "id": "p1-t4",
+          "source": "GROOVE RADIUS",
+          "bbox": [
+            514.385,
+            78.037,
+            569.115,
+            86.835
+          ],
+          "polygon": [
+            [
+              514.385,
+              78.037
+            ],
+            [
+              569.115,
+              78.037
+            ],
+            [
+              569.115,
+              86.835
+            ],
+            [
+              514.385,
+              86.835
+            ]
+          ],
+          "confidence": 0.9986,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "槽半径",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 514.385,
+            "MinY": 508.385,
+            "MaxX": 569.115,
+            "MaxY": 517.183
+          }
+        },
+        {
+          "id": "p1-t5",
+          "source": "GROOVE DEPTH",
+          "bbox": [
+            586.338,
+            77.271,
+            638.389,
+            84.54
+          ],
+          "polygon": [
+            [
+              586.338,
+              77.271
+            ],
+            [
+              638.389,
+              77.271
+            ],
+            [
+              638.389,
+              84.54
+            ],
+            [
+              586.338,
+              84.54
+            ]
+          ],
+          "confidence": 0.9847,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "槽深",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 586.338,
+            "MinY": 510.68,
+            "MaxX": 638.389,
+            "MaxY": 517.949
+          }
+        },
+        {
+          "id": "p1-t6",
+          "source": "THIS DRAWING IS A CONTROLLED DOCUMENT.",
+          "bbox": [
+            34.063,
+            89.13,
+            40.569,
+            191.649
+          ],
+          "polygon": [
+            [
+              34.063,
+              89.13
+            ],
+            [
+              40.569,
+              89.13
+            ],
+            [
+              40.569,
+              191.649
+            ],
+            [
+              34.063,
+              191.649
+            ]
+          ],
+          "confidence": 0.979,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "本图纸为受控文件",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 34.063,
+            "MinY": 403.571,
+            "MaxX": 40.569,
+            "MaxY": 506.09
+          }
+        },
+        {
+          "id": "p1-t7",
+          "source": "R.0180",
+          "bbox": [
+            543.09,
+            85.305,
+            569.115,
+            93.72
+          ],
+          "polygon": [
+            [
+              543.09,
+              85.305
+            ],
+            [
+              569.115,
+              85.305
+            ],
+            [
+              569.115,
+              93.72
+            ],
+            [
+              543.09,
+              93.72
+            ]
+          ],
+          "confidence": 0.9598,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "R.0180",
+          "translation_method": "identifier",
+          "needs_review": false,
+          "enabled": false,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 543.09,
+            "MinY": 501.5,
+            "MaxX": 569.115,
+            "MaxY": 509.915
+          }
+        },
+        {
+          "id": "p1-t8",
+          "source": "D",
+          "bbox": [
+            814.444,
+            86.835,
+            819.419,
+            94.103
+          ],
+          "polygon": [
+            [
+              814.444,
+              86.835
+            ],
+            [
+              819.419,
+              86.835
+            ],
+            [
+              819.419,
+              94.103
+            ],
+            [
+              814.444,
+              94.103
+            ]
+          ],
+          "confidence": 0.9897,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "D",
+          "translation_method": "identifier",
+          "needs_review": false,
+          "enabled": false,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 814.444,
+            "MinY": 501.117,
+            "MaxX": 819.419,
+            "MaxY": 508.385
+          }
+        },
+        {
+          "id": "p1-t9",
+          "source": "TOP OF LAND",
+          "bbox": [
+            368.566,
+            126.236,
+            417.173,
+            135.416
+          ],
+          "polygon": [
+            [
+              368.949,
+              126.236
+            ],
+            [
+              417.173,
+              127.383
+            ],
+            [
+              417.173,
+              135.416
+            ],
+            [
+              368.566,
+              134.269
+            ]
+          ],
+          "confidence": 0.9986,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "直壁段顶部",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 368.566,
+            "MinY": 459.804,
+            "MaxX": 417.173,
+            "MaxY": 468.984
+          }
+        },
+        {
+          "id": "p1-t10",
+          "source": "GROOVE RADIUS",
+          "bbox": [
+            164.573,
+            146.892,
+            219.303,
+            156.456
+          ],
+          "polygon": [
+            [
+              164.573,
+              146.892
+            ],
+            [
+              219.303,
+              148.04
+            ],
+            [
+              219.303,
+              156.456
+            ],
+            [
+              164.573,
+              155.691
+            ]
+          ],
+          "confidence": 0.9728,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "槽半径",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 164.573,
+            "MinY": 438.764,
+            "MaxX": 219.303,
+            "MaxY": 448.328
+          }
+        },
+        {
+          "id": "p1-t11",
+          "source": "GROOVE DEPTH",
+          "bbox": [
+            237.291,
+            146.51,
+            288.959,
+            153.778
+          ],
+          "polygon": [
+            [
+              237.291,
+              146.51
+            ],
+            [
+              288.959,
+              146.51
+            ],
+            [
+              288.959,
+              153.778
+            ],
+            [
+              237.291,
+              153.778
+            ]
+          ],
+          "confidence": 0.998,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "槽深",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 237.291,
+            "MinY": 441.442,
+            "MaxX": 288.959,
+            "MaxY": 448.71
+          }
+        },
+        {
+          "id": "p1-t12",
+          "source": "BOTTOM OF LAND",
+          "bbox": [
+            351.344,
+            140.772,
+            410.666,
+            148.04
+          ],
+          "polygon": [
+            [
+              351.344,
+              140.772
+            ],
+            [
+              410.666,
+              140.772
+            ],
+            [
+              410.666,
+              148.04
+            ],
+            [
+              351.344,
+              148.04
+            ]
+          ],
+          "confidence": 0.9695,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "直壁段底部",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 351.344,
+            "MinY": 447.18,
+            "MaxX": 410.666,
+            "MaxY": 454.448
+          }
+        },
+        {
+          "id": "p1-t13",
+          "source": "R.0180",
+          "bbox": [
+            194.043,
+            155.308,
+            218.92,
+            162.194
+          ],
+          "polygon": [
+            [
+              194.043,
+              155.308
+            ],
+            [
+              218.92,
+              155.308
+            ],
+            [
+              218.92,
+              162.194
+            ],
+            [
+              194.043,
+              162.194
+            ]
+          ],
+          "confidence": 0.9997,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "R.0180",
+          "translation_method": "identifier",
+          "needs_review": false,
+          "enabled": false,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 194.043,
+            "MinY": 433.026,
+            "MaxX": 218.92,
+            "MaxY": 439.912
+          }
+        },
+        {
+          "id": "p1-t14",
+          "source": "SHARP CORNERS",
+          "bbox": [
+            726.416,
+            187.823,
+            783.825,
+            194.709
+          ],
+          "polygon": [
+            [
+              726.416,
+              187.823
+            ],
+            [
+              783.825,
+              187.823
+            ],
+            [
+              783.825,
+              194.709
+            ],
+            [
+              726.416,
+              194.709
+            ]
+          ],
+          "confidence": 0.9963,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "尖角",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 726.416,
+            "MinY": 400.511,
+            "MaxX": 783.825,
+            "MaxY": 407.397
+          }
+        },
+        {
+          "id": "p1-t15",
+          "source": "REQUIRED ALONG",
+          "bbox": [
+            726.799,
+            194.709,
+            784.591,
+            201.977
+          ],
+          "polygon": [
+            [
+              726.799,
+              194.709
+            ],
+            [
+              784.591,
+              194.709
+            ],
+            [
+              784.591,
+              201.977
+            ],
+            [
+              726.799,
+              201.977
+            ]
+          ],
+          "confidence": 0.9983,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "要求沿着",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 726.799,
+            "MinY": 393.243,
+            "MaxX": 784.591,
+            "MaxY": 400.511
+          }
+        },
+        {
+          "id": "p1-t16",
+          "source": "THESE EDGES",
+          "bbox": [
+            727.565,
+            201.977,
+            773.492,
+            209.245
+          ],
+          "polygon": [
+            [
+              727.565,
+              201.977
+            ],
+            [
+              773.492,
+              201.977
+            ],
+            [
+              773.492,
+              209.245
+            ],
+            [
+              727.565,
+              209.245
+            ]
+          ],
+          "confidence": 0.9983,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "这些边缘",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 727.565,
+            "MinY": 385.975,
+            "MaxX": 773.492,
+            "MaxY": 393.243
+          }
+        },
+        {
+          "id": "p1-t17",
+          "source": "c",
+          "bbox": [
+            814.444,
+            223.781,
+            819.419,
+            229.902
+          ],
+          "polygon": [
+            [
+              814.444,
+              223.781
+            ],
+            [
+              819.419,
+              223.781
+            ],
+            [
+              819.419,
+              229.902
+            ],
+            [
+              814.444,
+              229.902
+            ]
+          ],
+          "confidence": 0.5358,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "c",
+          "translation_method": "identifier",
+          "needs_review": true,
+          "enabled": false,
+          "warnings": [
+            "OCR 置信度低于 0.85，请核对英文原文"
+          ],
+          "coordinates": {
+            "MinX": 814.444,
+            "MinY": 365.318,
+            "MaxX": 819.419,
+            "MaxY": 371.439
+          }
+        },
+        {
+          "id": "p1-t18",
+          "source": "SHARP CORNERS",
+          "bbox": [
+            63.15,
+            302.2,
+            120.942,
+            311.764
+          ],
+          "polygon": [
+            [
+              63.15,
+              302.2
+            ],
+            [
+              120.942,
+              302.965
+            ],
+            [
+              120.942,
+              311.764
+            ],
+            [
+              63.15,
+              310.616
+            ]
+          ],
+          "confidence": 0.9886,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "尖角",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 63.15,
+            "MinY": 283.456,
+            "MaxX": 120.942,
+            "MaxY": 293.02
+          }
+        },
+        {
+          "id": "p1-t19",
+          "source": "REQUIRED ALONG",
+          "bbox": [
+            62.767,
+            310.999,
+            120.559,
+            318.267
+          ],
+          "polygon": [
+            [
+              62.767,
+              310.999
+            ],
+            [
+              120.559,
+              310.999
+            ],
+            [
+              120.559,
+              318.267
+            ],
+            [
+              62.767,
+              318.267
+            ]
+          ],
+          "confidence": 0.9983,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "要求沿着",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 62.767,
+            "MinY": 276.953,
+            "MaxX": 120.559,
+            "MaxY": 284.221
+          }
+        },
+        {
+          "id": "p1-t20",
+          "source": "SEE SHEET #1",
+          "bbox": [
+            260.637,
+            309.851,
+            310.775,
+            319.414
+          ],
+          "polygon": [
+            [
+              260.637,
+              309.851
+            ],
+            [
+              310.775,
+              310.616
+            ],
+            [
+              310.392,
+              319.414
+            ],
+            [
+              260.637,
+              318.267
+            ]
+          ],
+          "confidence": 0.999,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "见第 1 页",
+          "translation_method": "glossary-template",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 260.637,
+            "MinY": 275.806,
+            "MaxX": 310.775,
+            "MaxY": 285.369
+          }
+        },
+        {
+          "id": "p1-t21",
+          "source": "THESE EDGES",
+          "bbox": [
+            74.632,
+            318.267,
+            120.559,
+            325.535
+          ],
+          "polygon": [
+            [
+              74.632,
+              318.267
+            ],
+            [
+              120.559,
+              318.267
+            ],
+            [
+              120.559,
+              325.535
+            ],
+            [
+              74.632,
+              325.535
+            ]
+          ],
+          "confidence": 0.9972,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "这些边缘",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 74.632,
+            "MinY": 269.685,
+            "MaxX": 120.559,
+            "MaxY": 276.953
+          }
+        },
+        {
+          "id": "p1-t22",
+          "source": "FOR ANGLE",
+          "bbox": [
+            265.995,
+            318.649,
+            304.651,
+            325.917
+          ],
+          "polygon": [
+            [
+              265.995,
+              318.649
+            ],
+            [
+              304.651,
+              318.649
+            ],
+            [
+              304.651,
+              325.917
+            ],
+            [
+              265.995,
+              325.917
+            ]
+          ],
+          "confidence": 0.9872,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "角度见图",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 265.995,
+            "MinY": 269.303,
+            "MaxX": 304.651,
+            "MaxY": 276.571
+          }
+        },
+        {
+          "id": "p1-t23",
+          "source": "B",
+          "bbox": [
+            814.444,
+            360.345,
+            819.419,
+            366.466
+          ],
+          "polygon": [
+            [
+              814.444,
+              360.345
+            ],
+            [
+              819.419,
+              360.345
+            ],
+            [
+              819.419,
+              366.466
+            ],
+            [
+              814.444,
+              366.466
+            ]
+          ],
+          "confidence": 0.9881,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "B",
+          "translation_method": "identifier",
+          "needs_review": false,
+          "enabled": false,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 814.444,
+            "MinY": 228.754,
+            "MaxX": 819.419,
+            "MaxY": 234.875
+          }
+        },
+        {
+          "id": "p1-t24",
+          "source": "SLUG RETENTION GEOMETRY",
+          "bbox": [
+            552.275,
+            366.466,
+            646.426,
+            373.734
+          ],
+          "polygon": [
+            [
+              552.275,
+              366.466
+            ],
+            [
+              646.426,
+              366.466
+            ],
+            [
+              646.426,
+              373.734
+            ],
+            [
+              552.275,
+              373.734
+            ]
+          ],
+          "confidence": 0.9685,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "防跳屑几何形状",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 552.275,
+            "MinY": 221.486,
+            "MaxX": 646.426,
+            "MaxY": 228.754
+          }
+        },
+        {
+          "id": "p1-t25",
+          "source": "AT BOTTOM OF LAND (HIDDEN RADIUS)",
+          "bbox": [
+            514.768,
+            374.499,
+            646.809,
+            381.767
+          ],
+          "polygon": [
+            [
+              514.768,
+              374.499
+            ],
+            [
+              646.809,
+              374.499
+            ],
+            [
+              646.809,
+              381.767
+            ],
+            [
+              514.768,
+              381.767
+            ]
+          ],
+          "confidence": 0.9734,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "直壁段底部（隐藏圆角）",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 514.768,
+            "MinY": 213.453,
+            "MaxX": 646.809,
+            "MaxY": 220.721
+          }
+        },
+        {
+          "id": "p1-t26",
+          "source": "SLUG RETENTION GEOMETRY",
+          "bbox": [
+            536.201,
+            385.21,
+            630.352,
+            392.478
+          ],
+          "polygon": [
+            [
+              536.201,
+              385.21
+            ],
+            [
+              630.352,
+              385.21
+            ],
+            [
+              630.352,
+              392.478
+            ],
+            [
+              536.201,
+              392.478
+            ]
+          ],
+          "confidence": 0.9797,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "防跳屑几何形状",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 536.201,
+            "MinY": 202.742,
+            "MaxX": 630.352,
+            "MaxY": 210.01
+          }
+        },
+        {
+          "id": "p1-t27",
+          "source": "AT TOP OF LAND (SOLID RADIUS)",
+          "bbox": [
+            517.447,
+            393.243,
+            630.735,
+            400.511
+          ],
+          "polygon": [
+            [
+              517.447,
+              393.243
+            ],
+            [
+              630.735,
+              393.243
+            ],
+            [
+              630.735,
+              400.511
+            ],
+            [
+              517.447,
+              400.511
+            ]
+          ],
+          "confidence": 0.9981,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "直壁段顶部（实线圆角）",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 517.447,
+            "MinY": 194.709,
+            "MaxX": 630.735,
+            "MaxY": 201.977
+          }
+        },
+        {
+          "id": "p1-t28",
+          "source": "ROUND OPENINGS WILL HAVE TWO SLUG",
+          "bbox": [
+            453.149,
+            411.222,
+            589.783,
+            418.108
+          ],
+          "polygon": [
+            [
+              453.149,
+              411.222
+            ],
+            [
+              589.783,
+              411.222
+            ],
+            [
+              589.783,
+              418.108
+            ],
+            [
+              453.149,
+              418.108
+            ]
+          ],
+          "confidence": 0.9883,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "圆孔将有两处防跳屑结构",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 453.149,
+            "MinY": 177.112,
+            "MaxX": 589.783,
+            "MaxY": 183.998
+          }
+        },
+        {
+          "id": "p1-t29",
+          "source": "HORIZONTAL",
+          "bbox": [
+            691.588,
+            416.96,
+            721.824,
+            422.698
+          ],
+          "polygon": [
+            [
+              691.588,
+              416.96
+            ],
+            [
+              721.824,
+              416.96
+            ],
+            [
+              721.824,
+              422.698
+            ],
+            [
+              691.588,
+              422.698
+            ]
+          ],
+          "confidence": 0.9984,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "水平",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 691.588,
+            "MinY": 172.522,
+            "MaxX": 721.824,
+            "MaxY": 178.26
+          }
+        },
+        {
+          "id": "p1-t30",
+          "source": "SLUG RETENTION GEOMETRY",
+          "bbox": [
+            160.745,
+            422.315,
+            255.662,
+            429.201
+          ],
+          "polygon": [
+            [
+              160.745,
+              422.315
+            ],
+            [
+              255.662,
+              422.315
+            ],
+            [
+              255.662,
+              429.201
+            ],
+            [
+              160.745,
+              429.201
+            ]
+          ],
+          "confidence": 0.9685,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "防跳屑几何形状",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 160.745,
+            "MinY": 166.019,
+            "MaxX": 255.662,
+            "MaxY": 172.905
+          }
+        },
+        {
+          "id": "p1-t31",
+          "source": "TAPER RELIEF AT",
+          "bbox": [
+            322.256,
+            423.463,
+            381.579,
+            430.349
+          ],
+          "polygon": [
+            [
+              322.256,
+              423.463
+            ],
+            [
+              381.579,
+              423.463
+            ],
+            [
+              381.579,
+              430.349
+            ],
+            [
+              322.256,
+              430.349
+            ]
+          ],
+          "confidence": 0.997,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "锥度避让位于",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 322.256,
+            "MinY": 164.871,
+            "MaxX": 381.579,
+            "MaxY": 171.757
+          }
+        },
+        {
+          "id": "p1-t32",
+          "source": "45' OFF THE HORIZONTAL OR VERTICAL AXIS",
+          "bbox": [
+            453.532,
+            425.758,
+            604.709,
+            433.026
+          ],
+          "polygon": [
+            [
+              453.532,
+              425.758
+            ],
+            [
+              604.709,
+              425.758
+            ],
+            [
+              604.709,
+              433.026
+            ],
+            [
+              453.532,
+              433.026
+            ]
+          ],
+          "confidence": 0.9922,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "45' 离水平或垂直轴",
+          "translation_method": "offline-nmt",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 453.532,
+            "MinY": 162.194,
+            "MaxX": 604.709,
+            "MaxY": 169.462
+          }
+        },
+        {
+          "id": "p1-t33",
+          "source": "AT TOP OF LAND (SOLID RADIUS)",
+          "bbox": [
+            141.609,
+            429.966,
+            255.662,
+            437.234
+          ],
+          "polygon": [
+            [
+              141.609,
+              429.966
+            ],
+            [
+              255.662,
+              429.966
+            ],
+            [
+              255.662,
+              437.234
+            ],
+            [
+              141.609,
+              437.234
+            ]
+          ],
+          "confidence": 0.992,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "直壁段顶部（实线圆角）",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 141.609,
+            "MinY": 157.986,
+            "MaxX": 255.662,
+            "MaxY": 165.254
+          }
+        },
+        {
+          "id": "p1-t34",
+          "source": "BOTTOM OF INSERT",
+          "bbox": [
+            322.256,
+            430.731,
+            388.085,
+            437.999
+          ],
+          "polygon": [
+            [
+              322.256,
+              430.731
+            ],
+            [
+              388.085,
+              430.731
+            ],
+            [
+              388.085,
+              437.999
+            ],
+            [
+              322.256,
+              437.999
+            ]
+          ],
+          "confidence": 0.9973,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "镶件底部",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 322.256,
+            "MinY": 157.221,
+            "MaxX": 388.085,
+            "MaxY": 164.489
+          }
+        },
+        {
+          "id": "p1-t35",
+          "source": "OF THE DIE INSERT.THE ANGLE OF BOTH",
+          "bbox": [
+            452.766,
+            433.026,
+            599.734,
+            439.529
+          ],
+          "polygon": [
+            [
+              452.766,
+              433.026
+            ],
+            [
+              599.734,
+              433.026
+            ],
+            [
+              599.734,
+              439.529
+            ],
+            [
+              452.766,
+              439.529
+            ]
+          ],
+          "confidence": 0.9793,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "凹模镶件的.两者的角度",
+          "translation_method": "glossary-template",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 452.766,
+            "MinY": 155.691,
+            "MaxX": 599.734,
+            "MaxY": 162.194
+          }
+        },
+        {
+          "id": "p1-t36",
+          "source": "VERTICAL",
+          "bbox": [
+            678.958,
+            430.731,
+            686.23,
+            457.126
+          ],
+          "polygon": [
+            [
+              678.958,
+              430.731
+            ],
+            [
+              686.23,
+              430.731
+            ],
+            [
+              686.23,
+              457.126
+            ],
+            [
+              678.958,
+              457.126
+            ]
+          ],
+          "confidence": 0.9986,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "垂直",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 678.958,
+            "MinY": 138.094,
+            "MaxX": 686.23,
+            "MaxY": 164.489
+          }
+        },
+        {
+          "id": "p1-t37",
+          "source": "SLUG RETENTION GEOMETRY",
+          "bbox": [
+            145.054,
+            442.59,
+            239.205,
+            449.858
+          ],
+          "polygon": [
+            [
+              145.054,
+              442.59
+            ],
+            [
+              239.205,
+              442.59
+            ],
+            [
+              239.205,
+              449.858
+            ],
+            [
+              145.054,
+              449.858
+            ]
+          ],
+          "confidence": 0.9862,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "防跳屑几何形状",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 145.054,
+            "MinY": 145.362,
+            "MaxX": 239.205,
+            "MaxY": 152.63
+          }
+        },
+        {
+          "id": "p1-t38",
+          "source": "RETENTION FEATURES SHOULD BE IN THE",
+          "bbox": [
+            453.532,
+            440.677,
+            593.61,
+            447.18
+          ],
+          "polygon": [
+            [
+              453.532,
+              440.677
+            ],
+            [
+              593.61,
+              440.677
+            ],
+            [
+              593.61,
+              447.18
+            ],
+            [
+              453.532,
+              447.18
+            ]
+          ],
+          "confidence": 0.9773,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "防跳屑结构应位于",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 453.532,
+            "MinY": 148.04,
+            "MaxX": 593.61,
+            "MaxY": 154.543
+          }
+        },
+        {
+          "id": "p1-t39",
+          "source": "AT BOTTOM OF LAND (HIDDEN RADIUS)",
+          "bbox": [
+            107.929,
+            450.623,
+            239.97,
+            457.891
+          ],
+          "polygon": [
+            [
+              107.929,
+              450.623
+            ],
+            [
+              239.97,
+              450.623
+            ],
+            [
+              239.97,
+              457.891
+            ],
+            [
+              107.929,
+              457.891
+            ]
+          ],
+          "confidence": 0.9943,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "直壁段底部（隐藏圆角）",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 107.929,
+            "MinY": 137.329,
+            "MaxX": 239.97,
+            "MaxY": 144.597
+          }
+        },
+        {
+          "id": "p1-t40",
+          "source": "STRAIGHT LAND GEOMETRY",
+          "bbox": [
+            343.306,
+            446.798,
+            433.247,
+            454.066
+          ],
+          "polygon": [
+            [
+              343.306,
+              446.798
+            ],
+            [
+              433.247,
+              446.798
+            ],
+            [
+              433.247,
+              454.066
+            ],
+            [
+              343.306,
+              454.066
+            ]
+          ],
+          "confidence": 0.9982,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "直壁段几何形状",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 343.306,
+            "MinY": 141.154,
+            "MaxX": 433.247,
+            "MaxY": 148.422
+          }
+        },
+        {
+          "id": "p1-t41",
+          "source": "SAME DIRECTION",
+          "bbox": [
+            453.149,
+            447.563,
+            508.262,
+            454.831
+          ],
+          "polygon": [
+            [
+              453.149,
+              447.563
+            ],
+            [
+              508.262,
+              447.563
+            ],
+            [
+              508.262,
+              454.831
+            ],
+            [
+              453.149,
+              454.831
+            ]
+          ],
+          "confidence": 0.9859,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "相同方向",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 453.149,
+            "MinY": 140.389,
+            "MaxX": 508.262,
+            "MaxY": 147.657
+          }
+        },
+        {
+          "id": "p1-t42",
+          "source": "GROOVE DEPTH",
+          "bbox": [
+            618.105,
+            467.454,
+            669.773,
+            474.722
+          ],
+          "polygon": [
+            [
+              618.105,
+              467.454
+            ],
+            [
+              669.773,
+              467.454
+            ],
+            [
+              669.773,
+              474.722
+            ],
+            [
+              618.105,
+              474.722
+            ]
+          ],
+          "confidence": 0.9718,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "槽深",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 618.105,
+            "MinY": 120.498,
+            "MaxX": 669.773,
+            "MaxY": 127.766
+          }
+        },
+        {
+          "id": "p1-t43",
+          "source": "GROOVE RADIUS",
+          "bbox": [
+            739.429,
+            466.307,
+            792.628,
+            473.575
+          ],
+          "polygon": [
+            [
+              739.429,
+              466.307
+            ],
+            [
+              792.628,
+              466.307
+            ],
+            [
+              792.628,
+              473.575
+            ],
+            [
+              739.429,
+              473.575
+            ]
+          ],
+          "confidence": 0.9651,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "槽半径",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 739.429,
+            "MinY": 121.645,
+            "MaxX": 792.628,
+            "MaxY": 128.913
+          }
+        },
+        {
+          "id": "p1-t44",
+          "source": "A",
+          "bbox": [
+            813.678,
+            497.674,
+            819.419,
+            503.795
+          ],
+          "polygon": [
+            [
+              813.678,
+              497.674
+            ],
+            [
+              819.419,
+              497.674
+            ],
+            [
+              819.419,
+              503.795
+            ],
+            [
+              813.678,
+              503.795
+            ]
+          ],
+          "confidence": 0.9984,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "A",
+          "translation_method": "identifier",
+          "needs_review": false,
+          "enabled": false,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 813.678,
+            "MinY": 91.425,
+            "MaxX": 819.419,
+            "MaxY": 97.546
+          }
+        },
+        {
+          "id": "p1-t45",
+          "source": "DWN",
+          "bbox": [
+            621.549,
+            503.03,
+            629.204,
+            508.003
+          ],
+          "polygon": [
+            [
+              621.549,
+              503.03
+            ],
+            [
+              629.204,
+              503.03
+            ],
+            [
+              629.204,
+              508.003
+            ],
+            [
+              621.549,
+              508.003
+            ]
+          ],
+          "confidence": 0.9496,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "绘图",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 621.549,
+            "MinY": 87.217,
+            "MaxX": 629.204,
+            "MaxY": 92.19
+          }
+        },
+        {
+          "id": "p1-t46",
+          "source": "12NOV2019",
+          "bbox": [
+            680.872,
+            503.412,
+            701.156,
+            509.15
+          ],
+          "polygon": [
+            [
+              680.872,
+              503.412
+            ],
+            [
+              701.156,
+              503.412
+            ],
+            [
+              701.156,
+              509.15
+            ],
+            [
+              680.872,
+              509.15
+            ]
+          ],
+          "confidence": 0.9747,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "12NOV2019",
+          "translation_method": "identifier",
+          "needs_review": false,
+          "enabled": false,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 680.872,
+            "MinY": 86.07,
+            "MaxX": 701.156,
+            "MaxY": 91.808
+          }
+        },
+        {
+          "id": "p1-t47",
+          "source": "MATERIAL",
+          "bbox": [
+            703.07,
+            503.412,
+            720.293,
+            508.003
+          ],
+          "polygon": [
+            [
+              703.07,
+              503.412
+            ],
+            [
+              720.293,
+              503.412
+            ],
+            [
+              720.293,
+              508.003
+            ],
+            [
+              703.07,
+              508.003
+            ]
+          ],
+          "confidence": 0.9968,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "材料",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 703.07,
+            "MinY": 87.217,
+            "MaxX": 720.293,
+            "MaxY": 91.808
+          }
+        },
+        {
+          "id": "p1-t48",
+          "source": "HEAT TREAT",
+          "bbox": [
+            755.886,
+            503.03,
+            776.936,
+            508.385
+          ],
+          "polygon": [
+            [
+              755.886,
+              503.03
+            ],
+            [
+              776.936,
+              503.03
+            ],
+            [
+              776.936,
+              508.385
+            ],
+            [
+              755.886,
+              508.385
+            ]
+          ],
+          "confidence": 0.9833,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "热处理",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 755.886,
+            "MinY": 86.835,
+            "MaxX": 776.936,
+            "MaxY": 92.19
+          }
+        },
+        {
+          "id": "p1-t49",
+          "source": "T. PASSARO",
+          "bbox": [
+            621.166,
+            508.385,
+            651.019,
+            515.653
+          ],
+          "polygon": [
+            [
+              621.166,
+              508.385
+            ],
+            [
+              651.019,
+              508.385
+            ],
+            [
+              651.019,
+              515.653
+            ],
+            [
+              621.166,
+              515.653
+            ]
+          ],
+          "confidence": 0.9956,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "T. 帕萨罗",
+          "translation_method": "offline-nmt",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 621.166,
+            "MinY": 79.567,
+            "MaxX": 651.019,
+            "MaxY": 86.835
+          }
+        },
+        {
+          "id": "p1-t50",
+          "source": "DIMENSIONS:",
+          "bbox": [
+            534.67,
+            519.479,
+            558.399,
+            525.217
+          ],
+          "polygon": [
+            [
+              534.67,
+              519.479
+            ],
+            [
+              558.399,
+              519.479
+            ],
+            [
+              558.399,
+              525.217
+            ],
+            [
+              534.67,
+              525.217
+            ]
+          ],
+          "confidence": 0.9966,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "尺寸",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 534.67,
+            "MinY": 70.003,
+            "MaxX": 558.399,
+            "MaxY": 75.741
+          }
+        },
+        {
+          "id": "p1-t51",
+          "source": "CHK",
+          "bbox": [
+            621.549,
+            516.036,
+            628.821,
+            521.774
+          ],
+          "polygon": [
+            [
+              621.549,
+              516.036
+            ],
+            [
+              628.821,
+              516.036
+            ],
+            [
+              628.821,
+              521.774
+            ],
+            [
+              621.549,
+              521.774
+            ]
+          ],
+          "confidence": 0.9954,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "校核",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 621.549,
+            "MinY": 73.446,
+            "MaxX": 628.821,
+            "MaxY": 79.184
+          }
+        },
+        {
+          "id": "p1-t52",
+          "source": "INCHES",
+          "bbox": [
+            539.263,
+            525.982,
+            553.041,
+            531.72
+          ],
+          "polygon": [
+            [
+              539.263,
+              525.982
+            ],
+            [
+              553.041,
+              525.982
+            ],
+            [
+              553.041,
+              531.72
+            ],
+            [
+              539.263,
+              531.72
+            ]
+          ],
+          "confidence": 0.9994,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "英寸",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 539.263,
+            "MinY": 63.5,
+            "MaxX": 553.041,
+            "MaxY": 69.238
+          }
+        },
+        {
+          "id": "p1-t53",
+          "source": "APVD",
+          "bbox": [
+            621.549,
+            529.424,
+            631.117,
+            534.397
+          ],
+          "polygon": [
+            [
+              621.549,
+              529.424
+            ],
+            [
+              631.117,
+              529.424
+            ],
+            [
+              631.117,
+              534.397
+            ],
+            [
+              621.549,
+              534.397
+            ]
+          ],
+          "confidence": 0.8779,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "批准",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 621.549,
+            "MinY": 60.823,
+            "MaxX": 631.117,
+            "MaxY": 65.796
+          }
+        },
+        {
+          "id": "p1-t54",
+          "source": "ETE",
+          "bbox": [
+            706.897,
+            524.069,
+            750.911,
+            538.988
+          ],
+          "polygon": [
+            [
+              706.897,
+              524.069
+            ],
+            [
+              750.911,
+              524.069
+            ],
+            [
+              750.911,
+              538.988
+            ],
+            [
+              706.897,
+              538.988
+            ]
+          ],
+          "confidence": 0.7468,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "ETE",
+          "translation_method": "identifier",
+          "needs_review": true,
+          "enabled": false,
+          "warnings": [
+            "OCR 置信度低于 0.85，请核对英文原文"
+          ],
+          "coordinates": {
+            "MinX": 706.897,
+            "MinY": 56.232,
+            "MaxX": 750.911,
+            "MaxY": 71.151
+          }
+        },
+        {
+          "id": "p1-t55",
+          "source": "TE Connectivity Ltd.",
+          "bbox": [
+            755.504,
+            527.894,
+            805.258,
+            535.162
+          ],
+          "polygon": [
+            [
+              755.504,
+              527.894
+            ],
+            [
+              805.258,
+              527.894
+            ],
+            [
+              805.258,
+              535.162
+            ],
+            [
+              755.504,
+              535.162
+            ]
+          ],
+          "confidence": 0.9918,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "TE Connectivity Ltd.",
+          "translation_method": "identifier",
+          "needs_review": false,
+          "enabled": false,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 755.504,
+            "MinY": 60.058,
+            "MaxX": 805.258,
+            "MaxY": 67.326
+          }
+        },
+        {
+          "id": "p1-t56",
+          "source": "SEE SHEET 1",
+          "bbox": [
+            385.406,
+            539.753,
+            415.642,
+            545.873
+          ],
+          "polygon": [
+            [
+              385.406,
+              539.753
+            ],
+            [
+              415.642,
+              539.753
+            ],
+            [
+              415.642,
+              545.873
+            ],
+            [
+              385.406,
+              545.873
+            ]
+          ],
+          "confidence": 0.9969,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "见第 1 页",
+          "translation_method": "glossary-template",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 385.406,
+            "MinY": 49.347,
+            "MaxX": 415.642,
+            "MaxY": 55.467
+          }
+        },
+        {
+          "id": "p1-t57",
+          "source": "PLC",
+          "bbox": [
+            572.177,
+            547.786,
+            581.363,
+            554.289
+          ],
+          "polygon": [
+            [
+              572.177,
+              547.786
+            ],
+            [
+              581.363,
+              547.786
+            ],
+            [
+              581.363,
+              554.289
+            ],
+            [
+              572.177,
+              554.289
+            ]
+          ],
+          "confidence": 0.9679,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "处",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 572.177,
+            "MinY": 40.931,
+            "MaxX": 581.363,
+            "MaxY": 47.434
+          }
+        },
+        {
+          "id": "p1-t58",
+          "source": "NAME",
+          "bbox": [
+            622.315,
+            542.048,
+            632.265,
+            548.169
+          ],
+          "polygon": [
+            [
+              622.315,
+              542.048
+            ],
+            [
+              632.265,
+              542.048
+            ],
+            [
+              632.265,
+              548.169
+            ],
+            [
+              622.315,
+              548.169
+            ]
+          ],
+          "confidence": 0.9972,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "名称",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 622.315,
+            "MinY": 47.051,
+            "MaxX": 632.265,
+            "MaxY": 53.172
+          }
+        },
+        {
+          "id": "p1-t59",
+          "source": "PROFILE INSERT",
+          "bbox": [
+            694.65,
+            546.256,
+            733.688,
+            551.994
+          ],
+          "polygon": [
+            [
+              694.65,
+              546.256
+            ],
+            [
+              733.688,
+              546.256
+            ],
+            [
+              733.688,
+              551.994
+            ],
+            [
+              694.65,
+              551.994
+            ]
+          ],
+          "confidence": 0.929,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "轮廓 镶件",
+          "translation_method": "glossary-template",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 694.65,
+            "MinY": 43.226,
+            "MaxX": 733.688,
+            "MaxY": 48.964
+          }
+        },
+        {
+          "id": "p1-t60",
+          "source": "SEE SHEET 1",
+          "bbox": [
+            385.789,
+            551.229,
+            415.642,
+            556.584
+          ],
+          "polygon": [
+            [
+              385.789,
+              551.229
+            ],
+            [
+              415.642,
+              551.229
+            ],
+            [
+              415.642,
+              556.584
+            ],
+            [
+              385.789,
+              556.584
+            ]
+          ],
+          "confidence": 0.9658,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "见第 1 页",
+          "translation_method": "glossary-template",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 385.789,
+            "MinY": 38.636,
+            "MaxX": 415.642,
+            "MaxY": 43.991
+          }
+        },
+        {
+          "id": "p1-t61",
+          "source": "ANGLES",
+          "bbox": [
+            523.188,
+            552.759,
+            539.645,
+            558.879
+          ],
+          "polygon": [
+            [
+              523.188,
+              552.759
+            ],
+            [
+              539.645,
+              552.759
+            ],
+            [
+              539.645,
+              558.879
+            ],
+            [
+              523.188,
+              558.879
+            ]
+          ],
+          "confidence": 0.9835,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "角度",
+          "translation_method": "offline-nmt",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 523.188,
+            "MinY": 36.341,
+            "MaxX": 539.645,
+            "MaxY": 42.461
+          }
+        },
+        {
+          "id": "p1-t62",
+          "source": "SCALE",
+          "bbox": [
+            621.549,
+            555.054,
+            632.265,
+            560.792
+          ],
+          "polygon": [
+            [
+              621.549,
+              555.054
+            ],
+            [
+              632.265,
+              555.054
+            ],
+            [
+              632.265,
+              560.792
+            ],
+            [
+              621.549,
+              560.792
+            ]
+          ],
+          "confidence": 0.9998,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "比例",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 621.549,
+            "MinY": 34.428,
+            "MaxX": 632.265,
+            "MaxY": 40.166
+          }
+        },
+        {
+          "id": "p1-t63",
+          "source": "DRAWING NO",
+          "bbox": [
+            665.18,
+            555.054,
+            685.847,
+            560.41
+          ],
+          "polygon": [
+            [
+              665.18,
+              555.054
+            ],
+            [
+              685.847,
+              555.054
+            ],
+            [
+              685.847,
+              560.41
+            ],
+            [
+              665.18,
+              560.41
+            ]
+          ],
+          "confidence": 0.9536,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "图号",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 665.18,
+            "MinY": 34.81,
+            "MaxX": 685.847,
+            "MaxY": 40.166
+          }
+        },
+        {
+          "id": "p1-t64",
+          "source": "SLUG RETENTION \"FEATURE INFO",
+          "bbox": [
+            675.514,
+            549.316,
+            753.59,
+            555.819
+          ],
+          "polygon": [
+            [
+              675.514,
+              549.316
+            ],
+            [
+              753.59,
+              549.316
+            ],
+            [
+              753.59,
+              555.819
+            ],
+            [
+              675.514,
+              555.819
+            ]
+          ],
+          "confidence": 0.9661,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "防跳屑 \"结构 说明",
+          "translation_method": "glossary-template",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 675.514,
+            "MinY": 39.401,
+            "MaxX": 753.59,
+            "MaxY": 45.904
+          }
+        },
+        {
+          "id": "p1-t65",
+          "source": "SHEET",
+          "bbox": [
+            745.553,
+            555.819,
+            756.652,
+            560.41
+          ],
+          "polygon": [
+            [
+              745.553,
+              555.819
+            ],
+            [
+              756.652,
+              555.819
+            ],
+            [
+              756.652,
+              560.41
+            ],
+            [
+              745.553,
+              560.41
+            ]
+          ],
+          "confidence": 0.9927,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "图页",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 745.553,
+            "MinY": 34.81,
+            "MaxX": 756.652,
+            "MaxY": 39.401
+          }
+        },
+        {
+          "id": "p1-t66",
+          "source": "REV",
+          "bbox": [
+            788.418,
+            555.437,
+            795.69,
+            560.41
+          ],
+          "polygon": [
+            [
+              788.418,
+              555.437
+            ],
+            [
+              795.69,
+              555.437
+            ],
+            [
+              795.69,
+              560.41
+            ],
+            [
+              788.418,
+              560.41
+            ]
+          ],
+          "confidence": 0.9999,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "版本",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 788.418,
+            "MinY": 34.81,
+            "MaxX": 795.69,
+            "MaxY": 39.783
+          }
+        },
+        {
+          "id": "p1-t67",
+          "source": "REVISION RECORD",
+          "bbox": [
+            413.345,
+            558.497,
+            444.729,
+            565.382
+          ],
+          "polygon": [
+            [
+              413.345,
+              558.497
+            ],
+            [
+              444.729,
+              559.262
+            ],
+            [
+              444.729,
+              565.382
+            ],
+            [
+              413.345,
+              564.235
+            ]
+          ],
+          "confidence": 0.9938,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "修订记录",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 413.345,
+            "MinY": 29.838,
+            "MaxX": 444.729,
+            "MaxY": 36.723
+          }
+        },
+        {
+          "id": "p1-t68",
+          "source": "DATE",
+          "bbox": [
+            480.705,
+            559.262,
+            491.039,
+            565.765
+          ],
+          "polygon": [
+            [
+              480.705,
+              559.262
+            ],
+            [
+              491.039,
+              559.262
+            ],
+            [
+              491.039,
+              565.765
+            ],
+            [
+              480.705,
+              565.765
+            ]
+          ],
+          "confidence": 0.9981,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "日期",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 480.705,
+            "MinY": 29.455,
+            "MaxX": 491.039,
+            "MaxY": 35.958
+          }
+        },
+        {
+          "id": "p1-t69",
+          "source": "DWN",
+          "bbox": [
+            501.373,
+            559.644,
+            509.027,
+            564.617
+          ],
+          "polygon": [
+            [
+              501.373,
+              559.644
+            ],
+            [
+              509.027,
+              559.644
+            ],
+            [
+              509.027,
+              564.617
+            ],
+            [
+              501.373,
+              564.617
+            ]
+          ],
+          "confidence": 0.7665,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "绘图",
+          "translation_method": "glossary",
+          "needs_review": true,
+          "enabled": true,
+          "warnings": [
+            "OCR 置信度低于 0.85，请核对英文原文"
+          ],
+          "coordinates": {
+            "MinX": 501.373,
+            "MinY": 30.603,
+            "MaxX": 509.027,
+            "MaxY": 35.576
+          }
+        },
+        {
+          "id": "p1-t70",
+          "source": "APVD",
+          "bbox": [
+            512.855,
+            559.644,
+            522.805,
+            564.235
+          ],
+          "polygon": [
+            [
+              512.855,
+              559.644
+            ],
+            [
+              522.805,
+              559.644
+            ],
+            [
+              522.805,
+              564.235
+            ],
+            [
+              512.855,
+              564.235
+            ]
+          ],
+          "confidence": 0.9963,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "批准",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 512.855,
+            "MinY": 30.985,
+            "MaxX": 522.805,
+            "MaxY": 35.576
+          }
+        },
+        {
+          "id": "p1-t71",
+          "source": "SURFACE TEXTURE",
+          "bbox": [
+            522.423,
+            560.41,
+            554.189,
+            566.148
+          ],
+          "polygon": [
+            [
+              522.423,
+              560.41
+            ],
+            [
+              554.189,
+              560.41
+            ],
+            [
+              554.189,
+              566.148
+            ],
+            [
+              522.423,
+              566.148
+            ]
+          ],
+          "confidence": 0.9809,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "表面纹理",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 522.423,
+            "MinY": 29.072,
+            "MaxX": 554.189,
+            "MaxY": 34.81
+          }
+        },
+        {
+          "id": "p1-t72",
+          "source": "NTS",
+          "bbox": [
+            624.611,
+            559.644,
+            639.155,
+            567.295
+          ],
+          "polygon": [
+            [
+              624.611,
+              559.644
+            ],
+            [
+              639.155,
+              559.644
+            ],
+            [
+              639.155,
+              567.295
+            ],
+            [
+              624.611,
+              567.295
+            ]
+          ],
+          "confidence": 0.9996,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "不按比例",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 624.611,
+            "MinY": 27.925,
+            "MaxX": 639.155,
+            "MaxY": 35.576
+          }
+        },
+        {
+          "id": "p1-t73",
+          "source": "OF",
+          "bbox": [
+            763.924,
+            559.262,
+            770.43,
+            564.617
+          ],
+          "polygon": [
+            [
+              763.924,
+              559.262
+            ],
+            [
+              770.43,
+              559.262
+            ],
+            [
+              770.43,
+              564.617
+            ],
+            [
+              763.924,
+              564.617
+            ]
+          ],
+          "confidence": 0.9851,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "的",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 763.924,
+            "MinY": 30.603,
+            "MaxX": 770.43,
+            "MaxY": 35.958
+          }
+        },
+        {
+          "id": "p1-t74",
+          "source": "EXP",
+          "bbox": [
+            789.184,
+            559.644,
+            803.727,
+            567.295
+          ],
+          "polygon": [
+            [
+              789.184,
+              559.644
+            ],
+            [
+              803.727,
+              559.644
+            ],
+            [
+              803.727,
+              567.295
+            ],
+            [
+              789.184,
+              567.295
+            ]
+          ],
+          "confidence": 0.9992,
+          "angle": 0,
+          "extraction": "ocr",
+          "translation": "试制版本",
+          "translation_method": "glossary",
+          "needs_review": false,
+          "enabled": true,
+          "warnings": [],
+          "coordinates": {
+            "MinX": 789.184,
+            "MinY": 27.925,
+            "MaxX": 803.727,
+            "MaxY": 35.576
+          }
+        }
+      ],
+      "elapsed_seconds": 5.598,
+      "warnings": [
+        "快速模式仅处理当前朝向；旋转文字与细小字体请使用四方向增强模式"
+      ],
+      "cache_hit": false
+    }
+  ],
+  "warnings": [],
+  "total_pages": 1,
+  "elapsed_seconds": 5.603,
+  "statistics": {
+    "pages": 1,
+    "text_regions": 74,
+    "translated": 65,
+    "needs_review": 14,
+    "glossary_matches": 55,
+    "identifiers_preserved": 9
+  }
+}

@@ -1,0 +1,590 @@
+{
+  "scope": "从用户提供的参考答案三张英文原图人工列出的开发验证点；不是独立甲方标准测试集，也不是全文翻译准确率。",
+  "machine": "macOS-26.6.2-arm64-arm-64bit",
+  "quality": "accurate",
+  "expected": 20,
+  "detected": 20,
+  "correct": 20,
+  "ocr_recall": 1.0,
+  "translation_accuracy_given_detection": 1.0,
+  "joint_pass_rate": 1.0,
+  "times": {
+    "reference_1.png": 11.524,
+    "reference_2.png": 10.859,
+    "reference_3.png": 11.281
+  },
+  "cases": [
+    {
+      "image": "reference_1.png",
+      "source": "SLUG RETENTION FEATURE EXAMPLE FOR NON ROUND OPENINGS",
+      "accepted": [
+        "非圆孔防跳屑结构示例"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "SLUGRETENTIONFEATUREEXAMPLEFORNON ROUNDOPENINGS",
+          "translation": "非圆孔防跳屑结构示例",
+          "bbox": [
+            30.802,
+            36.795,
+            665.676,
+            58.187
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "SLUG RETENTION FEATURE EXAMPLE FOR ROUND OPENINGS",
+      "accepted": [
+        "圆孔防跳屑结构示例"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "SLUG RETENTION FEATURE EXAMPLE FOR ROUND OPENINGS",
+          "translation": "圆孔防跳屑结构示例",
+          "bbox": [
+            730.0,
+            39.0,
+            1333.0,
+            66.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "GROOVE RADIUS",
+      "accepted": [
+        "槽半径"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "GROOVERADIUS",
+          "translation": "槽半径",
+          "bbox": [
+            855.625,
+            91.987,
+            943.754,
+            106.105
+          ]
+        },
+        {
+          "source": "GROOVE RADIUS",
+          "translation": "槽半径",
+          "bbox": [
+            202.355,
+            218.201,
+            288.773,
+            231.892
+          ]
+        },
+        {
+          "source": "GROOVE RADIUS",
+          "translation": "槽半径",
+          "bbox": [
+            1256.485,
+            824.029,
+            1343.331,
+            837.72
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "GROOVE DEPTH",
+      "accepted": [
+        "槽深"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "GROOVEDEPTH",
+          "translation": "槽深",
+          "bbox": [
+            992.953,
+            73.589,
+            1081.082,
+            88.564
+          ]
+        },
+        {
+          "source": "GROOVE DEPTH",
+          "translation": "槽深",
+          "bbox": [
+            336.261,
+            214.778,
+            426.101,
+            228.897
+          ]
+        },
+        {
+          "source": "GROOVE DEPTH",
+          "translation": "槽深",
+          "bbox": [
+            1053.274,
+            815.044,
+            1136.27,
+            829.163
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "TOP OF LAND",
+      "accepted": [
+        "直壁段顶部",
+        "顶部直伸"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "TOP OFLAND",
+          "translation": "直壁段顶部",
+          "bbox": [
+            583.964,
+            178.411,
+            657.976,
+            192.102
+          ]
+        },
+        {
+          "source": "AT TOP OF LAND (SOLID RADIUS)",
+          "translation": "直壁段顶部（实线圆角）",
+          "bbox": [
+            858.192,
+            677.278,
+            1049.852,
+            691.825
+          ]
+        },
+        {
+          "source": "AT TOP OF LAND (SOLID RADIUS)",
+          "translation": "直壁段顶部（实线圆角）",
+          "bbox": [
+            155.724,
+            741.027,
+            347.384,
+            755.574
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "BOTTOM OF LAND",
+      "accepted": [
+        "直壁段底部",
+        "底部直伸"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "BOTTOM OF LAND",
+          "translation": "直壁段底部",
+          "bbox": [
+            553.162,
+            204.082,
+            648.136,
+            217.773
+          ]
+        },
+        {
+          "source": "AT BOTTOM OF LAND (HIDDEN RADIUS)",
+          "translation": "直壁段底部（隐藏圆角）",
+          "bbox": [
+            862.042,
+            641.767,
+            1079.799,
+            656.741
+          ]
+        },
+        {
+          "source": "AT BOTTOM OF LAND (HIDDEN RADIUS)",
+          "translation": "直壁段底部（隐藏圆角）",
+          "bbox": [
+            93.691,
+            779.961,
+            311.02,
+            794.935
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "SHARP CORNERS",
+      "accepted": [
+        "尖角",
+        "锐角"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "SHARP CORNERS",
+          "translation": "尖角",
+          "bbox": [
+            1229.961,
+            295.641,
+            1318.518,
+            311.471
+          ]
+        },
+        {
+          "source": "SHARP CORNERS",
+          "translation": "尖角",
+          "bbox": [
+            17.113,
+            515.553,
+            102.247,
+            527.105
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "STRAIGHT LAND GEOMETRY",
+      "accepted": [
+        "直壁段几何形状",
+        "直伸图"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "STRAIGHT LAND GEOMETRY",
+          "translation": "直壁段几何形状",
+          "bbox": [
+            511.664,
+            776.538,
+            662.682,
+            791.94
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "TAPER RELIEF AT",
+      "accepted": [
+        "锥度避让"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "TAPER RELIEF AT",
+          "translation": "锥度避让位于",
+          "bbox": [
+            473.588,
+            730.759,
+            577.547,
+            746.589
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "BOTTOM OF INSERT",
+      "accepted": [
+        "镶件底部",
+        "入子底部"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "BOTTOM OF INSERT",
+          "translation": "镶件底部",
+          "bbox": [
+            474.016,
+            745.733,
+            581.825,
+            760.708
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "SLUG RETENTION GEOMETRY",
+      "accepted": [
+        "防跳屑几何形状"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "SLUG RETENTION GEOMETRY",
+          "translation": "防跳屑几何形状",
+          "bbox": [
+            928.353,
+            630.215,
+            1080.227,
+            643.05
+          ]
+        },
+        {
+          "source": "SLUG RETENTION GEOMETRY",
+          "translation": "防跳屑几何形状",
+          "bbox": [
+            898.834,
+            663.587,
+            1050.707,
+            676.422
+          ]
+        },
+        {
+          "source": "SLUG RETENTION GEOMETRY",
+          "translation": "防跳屑几何形状",
+          "bbox": [
+            195.51,
+            727.336,
+            348.667,
+            741.455
+          ]
+        },
+        {
+          "source": "SLUG RETENTION GEOMETRY",
+          "translation": "防跳屑几何形状",
+          "bbox": [
+            158.291,
+            766.698,
+            311.02,
+            782.1
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "HORIZONTAL",
+      "accepted": [
+        "水平"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "HORIZONTAL",
+          "translation": "水平",
+          "bbox": [
+            1167.072,
+            724.341,
+            1228.678,
+            735.893
+          ]
+        },
+        {
+          "source": "AS OFF THE HORIZONTAL OR VERTICAL AXIS",
+          "translation": "纵轴或纵轴",
+          "bbox": [
+            720.008,
+            738.46,
+            974.129,
+            752.151
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_1.png",
+      "source": "VERTICAL",
+      "accepted": [
+        "垂直"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "AS OFF THE HORIZONTAL OR VERTICAL AXIS",
+          "translation": "纵轴或纵轴",
+          "bbox": [
+            720.008,
+            738.46,
+            974.129,
+            752.151
+          ]
+        },
+        {
+          "source": "VERTICAL",
+          "translation": "垂直",
+          "bbox": [
+            1142.687,
+            740.599,
+            1153.81,
+            796.647
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_2.png",
+      "source": "COATING AREA",
+      "accepted": [
+        "涂覆区",
+        "涂层区"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "coatingarea",
+          "translation": "涂覆区",
+          "bbox": [
+            666.0,
+            320.0,
+            743.0,
+            333.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_2.png",
+      "source": "NOTES",
+      "accepted": [
+        "技术要求",
+        "注释"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "NOTES:",
+          "translation": "技术要求",
+          "bbox": [
+            655.0,
+            754.0,
+            694.0,
+            768.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_2.png",
+      "source": "PART MUST MEET FINAL DIMENSIONAL VALUES AFTER COATING",
+      "accepted": [
+        "涂覆后必须满足最终尺寸",
+        "涂覆后",
+        "涂层后"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "4.PART MUST MEET FINAL DIMENSIONAL VALUES AFTER COATING",
+          "translation": "4.零件涂覆后必须满足最终尺寸要求",
+          "bbox": [
+            655.0,
+            822.0,
+            1004.0,
+            838.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_3.png",
+      "source": "UNDERCUT",
+      "accepted": [
+        "避空",
+        "避角"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "UNDERCUT",
+          "translation": "避空",
+          "bbox": [
+            348.0,
+            514.0,
+            423.0,
+            534.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_3.png",
+      "source": "HATCHED AREA",
+      "accepted": [
+        "剖面线区域",
+        "阴影区域"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "HATCHEDAREA0.50-",
+          "translation": "孵化区0.50-",
+          "bbox": [
+            35.0,
+            228.0,
+            185.0,
+            244.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_3.png",
+      "source": "FAR SIDE",
+      "accepted": [
+        "反面"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "DEEP,FARSIDE",
+          "translation": "深处,远处",
+          "bbox": [
+            59.0,
+            244.0,
+            183.0,
+            261.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "reference_3.png",
+      "source": "NOTES",
+      "accepted": [
+        "技术要求",
+        "注释"
+      ],
+      "detected": true,
+      "translation_correct": true,
+      "actual": [
+        {
+          "source": "NOTES2&3APPLY",
+          "translation": "说明2&3应用",
+          "bbox": [
+            453.113,
+            588.815,
+            601.077,
+            601.987
+          ]
+        }
+      ]
+    }
+  ]
+}

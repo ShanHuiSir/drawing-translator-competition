@@ -1,0 +1,64 @@
+{
+  "definition": "非空 Python 应用源码（src）行；注释包括 # 和模块/类/函数 docstring",
+  "source_lines": 1439,
+  "comment_lines": 489,
+  "ratio": 0.33981931897150797,
+  "meets_25_percent": true,
+  "files": [
+    {
+      "file": "src/drawing_translator/service.py",
+      "nonblank_lines": 405,
+      "comment_docstring_lines": 157
+    },
+    {
+      "file": "src/drawing_translator/models.py",
+      "nonblank_lines": 55,
+      "comment_docstring_lines": 18
+    },
+    {
+      "file": "src/drawing_translator/paths.py",
+      "nonblank_lines": 24,
+      "comment_docstring_lines": 13
+    },
+    {
+      "file": "src/drawing_translator/__init__.py",
+      "nonblank_lines": 2,
+      "comment_docstring_lines": 1
+    },
+    {
+      "file": "src/drawing_translator/exporting.py",
+      "nonblank_lines": 272,
+      "comment_docstring_lines": 96
+    },
+    {
+      "file": "src/drawing_translator/cli.py",
+      "nonblank_lines": 51,
+      "comment_docstring_lines": 11
+    },
+    {
+      "file": "src/drawing_translator/extraction.py",
+      "nonblank_lines": 291,
+      "comment_docstring_lines": 100
+    },
+    {
+      "file": "src/drawing_translator/pipeline.py",
+      "nonblank_lines": 125,
+      "comment_docstring_lines": 40
+    },
+    {
+      "file": "src/drawing_translator/translation.py",
+      "nonblank_lines": 125,
+      "comment_docstring_lines": 14
+    },
+    {
+      "file": "src/drawing_translator/launcher.py",
+      "nonblank_lines": 43,
+      "comment_docstring_lines": 12
+    },
+    {
+      "file": "src/drawing_translator/glossary.py",
+      "nonblank_lines": 46,
+      "comment_docstring_lines": 27
+    }
+  ]
+}

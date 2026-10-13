@@ -1,0 +1,68 @@
+[
+  {
+    "file": "C98 87305.pdf",
+    "status": "done",
+    "elapsed": 24.508,
+    "pages": 8,
+    "text_regions": 447,
+    "translated": 274,
+    "needs_review": 210,
+    "glossary_matches": 139,
+    "identifiers_preserved": 173
+  },
+  {
+    "file": "D12.pdf",
+    "status": "done",
+    "elapsed": 74.436,
+    "pages": 25,
+    "text_regions": 1557,
+    "translated": 1183,
+    "needs_review": 851,
+    "glossary_matches": 415,
+    "identifiers_preserved": 374
+  },
+  {
+    "file": "D18 PDF.pdf",
+    "status": "done",
+    "elapsed": 44.266,
+    "pages": 12,
+    "text_regions": 667,
+    "translated": 465,
+    "needs_review": 422,
+    "glossary_matches": 99,
+    "identifiers_preserved": 200
+  },
+  {
+    "file": "D22 87486.pdf",
+    "status": "done",
+    "elapsed": 107.672,
+    "pages": 47,
+    "text_regions": 1779,
+    "translated": 1084,
+    "needs_review": 791,
+    "glossary_matches": 446,
+    "identifiers_preserved": 695
+  },
+  {
+    "file": "D22 87487.pdf",
+    "status": "done",
+    "elapsed": 99.499,
+    "pages": 39,
+    "text_regions": 1195,
+    "translated": 705,
+    "needs_review": 644,
+    "glossary_matches": 146,
+    "identifiers_preserved": 487
+  },
+  {
+    "file": "D22 87578.pdf",
+    "status": "done",
+    "elapsed": 17.598,
+    "pages": 8,
+    "text_regions": 448,
+    "translated": 353,
+    "needs_review": 141,
+    "glossary_matches": 230,
+    "identifiers_preserved": 95
+  }
+]

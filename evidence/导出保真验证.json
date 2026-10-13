@@ -1,0 +1,110 @@
+[
+  {
+    "file": "outputs/最终样例结果/C98 87305/C98 87305_不遮挡.pdf",
+    "pages": 8,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/C98 87305/C98 87305_遮挡.pdf",
+    "pages": 8,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D12/D12_不遮挡.pdf",
+    "pages": 25,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D12/D12_遮挡.pdf",
+    "pages": 25,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D18 PDF/D18 PDF_不遮挡.pdf",
+    "pages": 12,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D18 PDF/D18 PDF_遮挡.pdf",
+    "pages": 12,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D22 87486/D22 87486_不遮挡.pdf",
+    "pages": 47,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D22 87486/D22 87486_遮挡.pdf",
+    "pages": 47,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D22 87487/D22 87487_不遮挡.pdf",
+    "pages": 39,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D22 87487/D22 87487_遮挡.pdf",
+    "pages": 39,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D22 87578/D22 87578_不遮挡.pdf",
+    "pages": 8,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  },
+  {
+    "file": "outputs/最终样例结果/D22 87578/D22 87578_遮挡.pdf",
+    "pages": 8,
+    "geometry_preserved": true,
+    "original_image_streams_preserved": true,
+    "source_unchanged": true,
+    "red_text_present": true,
+    "omitted_annotations": 0
+  }
+]

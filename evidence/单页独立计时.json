@@ -1,0 +1,37 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "cache": false,
+  "scope": "六份 PDF 各第 1 页；顺序执行，无其他 OCR / 翻译验证并行运行，非目标 i7 平台",
+  "cases": [
+    {
+      "file": "C98 87305.pdf",
+      "elapsed_seconds": 2.934,
+      "regions": 51
+    },
+    {
+      "file": "D12.pdf",
+      "elapsed_seconds": 2.022,
+      "regions": 74
+    },
+    {
+      "file": "D18 PDF.pdf",
+      "elapsed_seconds": 1.635,
+      "regions": 29
+    },
+    {
+      "file": "D22 87486.pdf",
+      "elapsed_seconds": 1.862,
+      "regions": 50
+    },
+    {
+      "file": "D22 87487.pdf",
+      "elapsed_seconds": 1.703,
+      "regions": 27
+    },
+    {
+      "file": "D22 87578.pdf",
+      "elapsed_seconds": 2.183,
+      "regions": 55
+    }
+  ]
+}

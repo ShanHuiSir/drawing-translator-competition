@@ -1,0 +1,25 @@
+{
+  "description": "从用户提供的参考答案三张英文原图人工列出的开发验证点；不是独立甲方标准测试集，也不是全文翻译准确率。",
+  "cases": [
+    {"image": "reference_1.png", "source": "SLUG RETENTION FEATURE EXAMPLE FOR NON ROUND OPENINGS", "accepted": ["非圆孔防跳屑结构示例"]},
+    {"image": "reference_1.png", "source": "SLUG RETENTION FEATURE EXAMPLE FOR ROUND OPENINGS", "accepted": ["圆孔防跳屑结构示例"]},
+    {"image": "reference_1.png", "source": "GROOVE RADIUS", "accepted": ["槽半径"]},
+    {"image": "reference_1.png", "source": "GROOVE DEPTH", "accepted": ["槽深"]},
+    {"image": "reference_1.png", "source": "TOP OF LAND", "accepted": ["直壁段顶部", "顶部直伸"]},
+    {"image": "reference_1.png", "source": "BOTTOM OF LAND", "accepted": ["直壁段底部", "底部直伸"]},
+    {"image": "reference_1.png", "source": "SHARP CORNERS", "accepted": ["尖角", "锐角"]},
+    {"image": "reference_1.png", "source": "STRAIGHT LAND GEOMETRY", "accepted": ["直壁段几何形状", "直伸图"]},
+    {"image": "reference_1.png", "source": "TAPER RELIEF AT", "accepted": ["锥度避让"]},
+    {"image": "reference_1.png", "source": "BOTTOM OF INSERT", "accepted": ["镶件底部", "入子底部"]},
+    {"image": "reference_1.png", "source": "SLUG RETENTION GEOMETRY", "accepted": ["防跳屑几何形状"]},
+    {"image": "reference_1.png", "source": "HORIZONTAL", "accepted": ["水平"]},
+    {"image": "reference_1.png", "source": "VERTICAL", "accepted": ["垂直"]},
+    {"image": "reference_2.png", "source": "COATING AREA", "accepted": ["涂覆区", "涂层区"]},
+    {"image": "reference_2.png", "source": "NOTES", "accepted": ["技术要求", "注释"]},
+    {"image": "reference_2.png", "source": "PART MUST MEET FINAL DIMENSIONAL VALUES AFTER COATING", "accepted": ["涂覆后必须满足最终尺寸", "涂覆后", "涂层后"]},
+    {"image": "reference_3.png", "source": "UNDERCUT", "accepted": ["避空", "避角"]},
+    {"image": "reference_3.png", "source": "HATCHED AREA", "accepted": ["剖面线区域", "阴影区域"]},
+    {"image": "reference_3.png", "source": "FAR SIDE", "accepted": ["反面"]},
+    {"image": "reference_3.png", "source": "NOTES", "accepted": ["技术要求", "注释"]}
+  ]
+}

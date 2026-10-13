@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "file": "使用手册.md",
+      "bytes": 3693,
+      "sha256": "ccf2ebcc53666d246a22159ce07a0159fc99dcfd91e0270be95c542b98ad1aca"
+    },
+    {
+      "file": "先读我.txt",
+      "bytes": 721,
+      "sha256": "84f3b0b3cf02e253ea2e17b2873369e54cd9efbf6ad84cdb6645eb488d0e4f9e"
+    },
+    {
+      "file": "参赛演示稿.md",
+      "bytes": 1695,
+      "sha256": "a3b56b660ce140089357c7bf9200ed51dd5c00dad204b5fdff41ef83678253e4"
+    },
+    {
+      "file": "图译_139页样例结果.zip",
+      "bytes": 91032701,
+      "sha256": "8ff5af06b6819be7b56e743bfbe3eccc5bf1d5d5fc0fd10702b4f99ac0473b14"
+    },
+    {
+      "file": "图译_Windows免安装版.zip",
+      "bytes": 227583952,
+      "sha256": "f6d623ecc128ca9bf0fc8ec63915931658c37c470722315f672aaed52471f455"
+    },
+    {
+      "file": "图译_交付说明与实测报告.pdf",
+      "bytes": 762698,
+      "sha256": "303973180237204b75ecdf50ac40963a2e61d872a34ad571736b4972eaea54bd"
+    },
+    {
+      "file": "图译_源码及模型.zip",
+      "bytes": 115710641,
+      "sha256": "2b633d59c2418edd6404bae587d7a1c807314b7094a5755ac28790fb61c8e63a"
+    },
+    {
+      "file": "技术方案.md",
+      "bytes": 4556,
+      "sha256": "02b31f0741b26c1768a3105e860470f90811f96a9db4f6bbde4f95c9aca89fb9"
+    },
+    {
+      "file": "测试证据/Windows构建清单.json",
+      "bytes": 4886,
+      "sha256": "212e26981157b854ea97a41bfae7b584cacef1ffcb79e2e2fe44e012e76a0d77"
+    },
+    {
+      "file": "测试证据/pytest-final.log",
+      "bytes": 1232,
+      "sha256": "e35fb3d5ddf014ea4495c692ff638dc49173f6520559955a047f692a8d5c16fc"
+    },
+    {
+      "file": "测试证据/单页独立计时.json",
+      "bytes": 769,
+      "sha256": "213e05cee631a90024889eaa69d36aa5b778f72db1c121dcb636439d92db0222"
+    },
+    {
+      "file": "测试证据/参考答案验证.json",
+      "bytes": 12859,
+      "sha256": "87c76bcede037543be495e98159fee7d36f2a54065aed1e59650ca313fc3deea"
+    },
+    {
+      "file": "测试证据/导出保真验证.json",
+      "bytes": 3176,
+      "sha256": "2b5593765c3907e5c5e832d375e57eee72d1dd40b1e9b003acacd3b921862b4d"
+    },
+    {
+      "file": "测试证据/批量处理报告.json",
+      "bytes": 1406,
+      "sha256": "160f7b65c5827291ad2adfe6eca9d2d0eeb1cd7e997314936eddd25e84bc93c7"
+    },
+    {
+      "file": "测试证据/源码注释统计.json",
+      "bytes": 1652,
+      "sha256": "0ec1f678cc0ad998fdf4bf22f4fef353abecf622df97a9c31642ca30a5085bd6"
+    },
+    {
+      "file": "测试证据/短时稳定性.jsonl",
+      "bytes": 1175,
+      "sha256": "986b4372b08715dbb8c8c5a283ebe82551f39df2f6c7e260884f53b3b6a8afac"
+    }
+  ]
+}
