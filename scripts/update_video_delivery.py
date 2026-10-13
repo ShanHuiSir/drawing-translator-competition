@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib,shutil,zipfile,os
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT.parent/'图译交付材料'
 WORK=ROOT.parent/'.work/drawing-translator-video/production'
-EXCLUDED={'交付清单.json','图译_比赛交付总包.zip','.图译_比赛交付总包.tmp.zip','英文零件图纸术语自动翻译.zip','.英文零件图纸术语自动翻译.tmp.zip'}
+EXCLUDED={'.DS_Store','交付清单.json','图译_比赛交付总包.zip','.图译_比赛交付总包.tmp.zip','英文零件图纸术语自动翻译.zip','.英文零件图纸术语自动翻译.tmp.zip'}
 FILES=['图译_演示视频.mp4','演示解说词.md','图译_演示字幕.srt','视频说明.md','视频验收报告.json','视频实测导出成果.zip']
 def sha(path):
  digest=hashlib.sha256()
@@ -35,7 +35,7 @@ def main():
  temporary=OUT/'.图译_比赛交付总包.tmp.zip';combined=OUT/'图译_比赛交付总包.zip'
  with zipfile.ZipFile(temporary,'w',zipfile.ZIP_STORED) as bundle:
   for path in sorted(OUT.rglob('*')):
-   if path.is_file() and path.name not in EXCLUDED or path.name=='交付清单.json':bundle.write(path,'图译交付材料/'+str(path.relative_to(OUT)))
+   if path.is_file() and (path.name not in EXCLUDED or path.name=='交付清单.json'):bundle.write(path,'图译交付材料/'+str(path.relative_to(OUT)))
  with zipfile.ZipFile(temporary) as bundle:assert bundle.testzip() is None
  temporary.replace(combined)
  alias=OUT/'英文零件图纸术语自动翻译.zip';backup=WORK.parent/'原始交付总包留档.zip'
