@@ -6,6 +6,14 @@
 
 ![图译工作台](docs/images/工作台.png)
 
+## 演示视频（补充交付）
+
+[视频与更新整包 v1.0.1](https://github.com/ShanHuiSir/drawing-translator-competition/releases/tag/v1.0.1) · [直接下载 MP4](https://github.com/ShanHuiSir/drawing-translator-competition/releases/download/v1.0.1/drawing-translator-demo.mp4)
+
+约 2 分 59 秒，1080p，中文神经配音与字幕。按业务问题、输入、处理、查看、导出展开真实连续操作。另附 [解说词](docs/演示解说词.md)、[视频说明](docs/视频说明.md)、[SRT](docs/图译_演示字幕.srt) 与 [验收报告](docs/视频验收报告.json)。制作过程见 [脚本归档](retrospective/video-production/README.md)。
+
+本视频使用比赛开发样例，人工输入“复核示例”标记只演示修订流程。界面实际显示 74 个文本区域、65 条译文、8.32 秒，不能据此声明指定硬件 5 秒性能达标。视频完整解码和本次真实导出文件已核验。v1.0.0 的程序/模型包保留交付基线；v1.0.1 整包纳入新视频及相关说明。
+
 ## 下载交付文件
 
 [v1.0.0 Release](https://github.com/ShanHuiSir/drawing-translator-competition/releases/tag/v1.0.0) 中提供：`windows-portable.zip`（免安装程序）、`source-models.zip`（源码与模型、原始输入）、`sample-results-139-pages.zip`（完整样例结果）、`delivery-report.pdf`（实测报告）、`delivery-manifest.json`（校验清单）。压缩包内部保留中文文件名。

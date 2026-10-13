@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-13",
+  "video_file": "图译_演示视频.mp4",
+  "duration_seconds": 179.22,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "video_codec": "h264",
+  "audio_codec": "AAC",
+  "audio_sample_rate": 48000,
+  "neural_voice": "Kokoro Chinese v1.1 / zf_001",
+  "voice_speed_range": [
+    1.0,
+    1.035
+  ],
+  "subtitles": "burned Chinese subtitles + UTF-8 SRT",
+  "subtitle_segments": 23,
+  "full_decode_passed": true,
+  "mean_volume_dbfs": -16.6,
+  "max_volume_dbfs": -1.5,
+  "bytes": 7469529,
+  "sha256": "d1feb56c787b7c2478a9516d982ba395c6fbb8c36e8e78820c3178290d7a5879",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "业务问题",
+      "start_seconds": 0,
+      "duration_seconds": 20.364,
+      "captured_frames": 164,
+      "source_average_fps": 8.03,
+      "median_capture_interval_seconds": 0.121,
+      "largest_capture_gap_seconds": 0.362
+    },
+    {
+      "chapter": 2,
+      "title": "输入文件",
+      "start_seconds": 20.364,
+      "duration_seconds": 20.323,
+      "captured_frames": 149,
+      "source_average_fps": 7.31,
+      "median_capture_interval_seconds": 0.121,
+      "largest_capture_gap_seconds": 0.344
+    },
+    {
+      "chapter": 3,
+      "title": "查看识别结果",
+      "start_seconds": 40.687,
+      "duration_seconds": 23.935,
+      "captured_frames": 196,
+      "source_average_fps": 8.17,
+      "median_capture_interval_seconds": 0.121,
+      "largest_capture_gap_seconds": 0.182
+    },
+    {
+      "chapter": 4,
+      "title": "定位与人工复核",
+      "start_seconds": 64.623,
+      "duration_seconds": 30.171,
+      "captured_frames": 243,
+      "source_average_fps": 8.05,
+      "median_capture_interval_seconds": 0.121,
+      "largest_capture_gap_seconds": 0.163
+    },
+    {
+      "chapter": 5,
+      "title": "切换标注方式",
+      "start_seconds": 94.793,
+      "duration_seconds": 23.056,
+      "captured_frames": 160,
+      "source_average_fps": 6.93,
+      "median_capture_interval_seconds": 0.121,
+      "largest_capture_gap_seconds": 1.366
+    },
+    {
+      "chapter": 6,
+      "title": "导出成果",
+      "start_seconds": 117.849,
+      "duration_seconds": 24.288,
+      "captured_frames": 200,
+      "source_average_fps": 8.23,
+      "median_capture_interval_seconds": 0.121,
+      "largest_capture_gap_seconds": 0.201
+    },
+    {
+      "chapter": 7,
+      "title": "验证范围与交付",
+      "start_seconds": 142.137,
+      "duration_seconds": 37.041,
+      "captured_frames": 301,
+      "source_average_fps": 8.12,
+      "median_capture_interval_seconds": 0.121,
+      "largest_capture_gap_seconds": 0.444
+    }
+  ],
+  "actual_export": {
+    "job": "183ce3140e856fd0",
+    "source": "competition-provided development sample / single-page PDF",
+    "statistics": {
+      "pages": 1,
+      "text_regions": 74,
+      "translated": 65,
+      "needs_review": 14,
+      "glossary_matches": 55,
+      "identifiers_preserved": 9
+    },
+    "elapsed_seconds": 8.32,
+    "ocr_cache_used": false,
+    "manual_demo_text": "槽深（复核示例）",
+    "csv_rows": 74,
+    "original_sha256_unchanged": true,
+    "omitted_annotations": 0,
+    "pdf_json_csv_and_download_zip_match": true
+  },
+  "capture_method": "Continuous real browser viewport sampling. Mouse indicator follows actual events. The encoder repeats sampled frames to preserve real time at 24fps; source rates are listed per chapter. No source drawing, application counter or result was redrawn.",
+  "viewer_note": "Browser PDF plugin closes its recorder page. The result view instead renders the actual exported PDF losslessly with local PyMuPDF. Evidence viewer reads the existing verification files.",
+  "data_scope": "Actual competition development sample, not production data. Manual review marker is explicitly a demonstration input.",
+  "formal_acceptance_unverified": [
+    "Windows 10/11 real machine",
+    ">=50 independently fully annotated drawings / >=95% complete professional accuracy",
+    "specified Intel i7/16GB/SSD complete-file performance",
+    "72-hour stability"
+  ],
+  "visual_checks": [
+    "source upload and genuine processing state",
+    "74 regions / 65 translations / 14 review / actual 8.32s",
+    "zoom, mouse wheel and review filter",
+    "GROOVE DEPTH location and pt coordinates",
+    "manual typed text and personal glossary save",
+    "beside and cover mode changes",
+    "actual export success / zero omitted annotations",
+    "downloaded PDF JSON CSV checks",
+    "real exported PDF preview",
+    "actual evidence counts and clearly stated acceptance boundary"
+  ]
+}
